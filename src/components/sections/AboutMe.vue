@@ -1,6 +1,6 @@
 <template>
   <section id="about">
-    <div class="flex justify-center">
+    <div class="grid justify-center">
       <div class="outer inner">
         <img
           class="rounded w-80 h-80 float-left"
@@ -8,10 +8,21 @@
           alt="Justin's beautiful, lovely face."
         />
       </div>
+    </div>
 
-      <div class="p-10">
-        <p>I've been</p>
-      </div>
+    <div class="flex justify-end p-10">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa
+        lacus, mollis ut augue a, fermentum ultrices nibh. Phasellus vulputate
+        risus rutrum urna tempor, in malesuada nisi commodo. In vulputate
+        ultricies nibh, vitae consectetur risus. Donec sed porttitor est. Duis
+        blandit felis vitae purus commodo, sit amet sodales erat iaculis.
+        Vivamus enim enim, accumsan eget orci id, elementum interdum sem.
+        Maecenas at sodales leo. Vestibulum ante ipsum primis in faucibus orci
+        luctus et ultrices posuere cubilia curae; Ut ipsum massa, feugiat eget
+        nisl aliquam, dictum interdum erat. Phasellus erat mauris, consequat nec
+        suscipit et, fringilla eu lectus.
+      </p>
     </div>
   </section>
 </template>
