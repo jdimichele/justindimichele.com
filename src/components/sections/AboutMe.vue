@@ -1,12 +1,14 @@
 <template>
   <section id="about">
     <div class="grid justify-center">
-      <div class="outer inner">
-        <img
-          class="rounded w-80 h-80 float-left"
-          src="../../assets/myFace.jpg"
-          alt="Justin's beautiful, lovely face."
-        />
+      <div class="outer">
+        <div class="inner">
+          <img
+            class="rounded w-80 h-80 float-left"
+            src="../../assets/myFace.jpg"
+            alt="Justin's beautiful, lovely face."
+          />
+        </div>
       </div>
     </div>
 
