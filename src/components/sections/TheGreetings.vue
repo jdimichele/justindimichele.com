@@ -20,7 +20,7 @@
 export default {
   data() {
     return {
-      quotes: ["Hi, how are ya?", "Howdy!", "Hey!", "Hello there!"],
+      quotes: ["Hi, how are ya?", "Howdy!", "Hey!", "Hello there!", "Nice to meet you!"],
       randomQuote: "",
     };
   },

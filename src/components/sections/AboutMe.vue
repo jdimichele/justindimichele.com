@@ -13,17 +13,10 @@
     </div>
 
     <div class="flex justify-end p-10">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas massa
-        lacus, mollis ut augue a, fermentum ultrices nibh. Phasellus vulputate
-        risus rutrum urna tempor, in malesuada nisi commodo. In vulputate
-        ultricies nibh, vitae consectetur risus. Donec sed porttitor est. Duis
-        blandit felis vitae purus commodo, sit amet sodales erat iaculis.
-        Vivamus enim enim, accumsan eget orci id, elementum interdum sem.
-        Maecenas at sodales leo. Vestibulum ante ipsum primis in faucibus orci
-        luctus et ultrices posuere cubilia curae; Ut ipsum massa, feugiat eget
-        nisl aliquam, dictum interdum erat. Phasellus erat mauris, consequat nec
-        suscipit et, fringilla eu lectus.
+      <p class="flex text-justify indent-8">
+        I have loved learning how things work since I was a child and that passion has not
+        stopped since. I am always reading up on the newest technology trends and putting
+        them to use whenever I can.
       </p>
     </div>
   </section>
