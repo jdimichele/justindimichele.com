@@ -12,8 +12,8 @@
       </div>
     </div>
 
-    <div class="flex justify-end p-10">
-      <p class="flex text-justify indent-8">
+    <div class="flex">
+      <p class="text-center">
         I have loved learning how things work since I was a child and that passion has not
         stopped since. I am always reading up on the newest technology trends and putting
         them to use whenever I can.
