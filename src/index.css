@@ -1,10 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("./assets/fonts/Raleway-Italic-VariableFont_wght.ttf") format("ttf"),
+    url("./assets/fonts/Raleway-VariableFont_wght.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   #app {
-    font-family: "League Spartan";
     font-size: 22px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -13,7 +29,7 @@
 
   html {
     scroll-behavior: smooth;
-    background-color: #111f38;
+    background-color: #7b949c;
     min-height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;

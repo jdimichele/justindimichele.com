@@ -1,16 +1,16 @@
 <template>
   <div class="m-10">
     <div class="p-5">
-      <h1 class="mx-20 text-jd-lightaccent animate-bounceInTop text-7xl">
+      <h1 class="mx-20 font-display text-jd-lightbeige animate-bounceInTop text-7xl">
         {{ randomQuote }}
       </h1>
     </div>
-    <div class="flex flex-col">
+    <div class="flex flex-col font-body">
       <div class=" ml-32">
-        <h1 class="text-jd-darkaccent">My name is Justin.</h1>
+        <h1 class="text-jd-darkblue">My name is Justin.</h1>
       </div>
       <div class="ml-32">
-        <h2 class="text-jd-text">I like making things with code.</h2>
+        <h2 class="text-jd-darkblue">I like making things with code.</h2>
       </div>
     </div>
   </div>

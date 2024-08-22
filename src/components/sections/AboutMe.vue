@@ -3,20 +3,22 @@
     <div class="grid justify-center">
       <div class="outer">
         <div class="inner">
-          <img
-            class="rounded w-80 h-80 float-left"
-            src="../../assets/myFace.jpg"
-            alt="Justin's beautiful, lovely face."
-          />
+          <div class="image-background">
+            <img
+              class="rounded w-80 h-80 float-left block inheri"
+              src="../../assets/myFace.jpg"
+              alt="Justin's beautiful, lovely face."
+            />
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="flex">
-      <p class="text-center">
-        I have loved learning how things work since I was a child and that passion has not
-        stopped since. I am always reading up on the newest technology trends and putting
-        them to use whenever I can.
+    <div class="flex m-52">
+      <p class="text-center text-jd-darkblue font-body">
+        I have loved learning how things work since I was a child and that
+        passion has not stopped since. I am always reading up on the newest
+        technology trends and putting them to use whenever I can.
       </p>
     </div>
   </section>
@@ -36,8 +38,8 @@ div:after {
 }
 .outer:before {
   border-radius: 5px;
-  border-left: 3px solid #5e9dbd;
-  border-top: 3px solid #5e9dbd;
+  border-left: 3px solid #518FBF;
+  border-top: 3px solid #518FBF;
 }
 .outer:hover::before {
   animation: slide-tl 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -46,12 +48,22 @@ div:after {
   bottom: 0;
   right: 0;
   border-radius: 5px;
-  border-right: 3px solid #5e9dbd;
-  border-bottom: 3px solid #5e9dbd;
+  border-right: 3px solid #518FBF;
+  border-bottom: 3px solid #518FBF;
 }
-
 .inner:hover::after {
   animation: slide-br 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.image-background {
+  background-color: #213c4e;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+img {
+  border-radius: inherit;
 }
 
 @keyframes slide-tl {

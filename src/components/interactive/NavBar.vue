@@ -2,12 +2,12 @@
   <header>
     <div class="flex space-x-4 items-center justify-between flex-wrap mt-5">
       <div class="mx-4">
-        <a href="" class="hover:text-jd-lightaccent"
+        <a href="" class=""
           ><img class="h-10" src="../../assets/logo.png"></a
         >
       </div>
       <div class="px-5">
-        <ul class="flex items-center space-x-2">
+        <ul class="flex items-center space-x-2 text-jd-darkestblue">
           <li>
             <a
               href="#about"

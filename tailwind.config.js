@@ -7,6 +7,10 @@ module.exports = {
     "./src/main.js",
   ],
   theme: {
+    fontFamily: {
+      display: ['"Space Grotesk"', "arial"],
+      body: ['"Raleway', "arial"],
+    },
     extend: {
       animation: {
         bounceInTop: "bounceInTop 1.1s both",
@@ -50,11 +54,12 @@ module.exports = {
         },
       },
       colors: {
-        "jd-background": "#111F38",
-        "jd-lightaccent": "#5E9DBD",
-        "jd-darkaccent": "#518FBF",
-        "jd-text": "#FBFAFA",
-        "jd-main": "#496D8A",
+        "jd-background": "#7b949c",
+        "jd-darkestblue": "#182241",
+        "jd-lightbeige": "#fff5d9",
+        "jd-subbutton": "#518FBF",
+        "jd-darkblue": "#213c4e",
+        "jd-slate": "#536c7c",
       },
       spacing: {
         "1/2": "50%",
