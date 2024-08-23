@@ -5,7 +5,7 @@
         <div class="inner">
           <div class="image-background">
             <img
-              class="rounded w-80 h-80 float-left block inheri"
+              class="rounded w-80 h-80 float-left block"
               src="../../assets/myFace.jpg"
               alt="Justin's beautiful, lovely face."
             />
@@ -38,8 +38,8 @@ div:after {
 }
 .outer:before {
   border-radius: 5px;
-  border-left: 3px solid #518FBF;
-  border-top: 3px solid #518FBF;
+  border-left: 3px solid #182241;
+  border-top: 3px solid #182241;
 }
 .outer:hover::before {
   animation: slide-tl 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -48,8 +48,8 @@ div:after {
   bottom: 0;
   right: 0;
   border-radius: 5px;
-  border-right: 3px solid #518FBF;
-  border-bottom: 3px solid #518FBF;
+  border-right: 3px solid #182241;
+  border-bottom: 3px solid #182241;
 }
 .inner:hover::after {
   animation: slide-br 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
