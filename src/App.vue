@@ -1,7 +1,7 @@
 <template>
   <StarsBackground />
   <div>
-    <router-view class=" relative z-10">test</router-view>
+    <router-view></router-view>
   </div>
 </template>
 
