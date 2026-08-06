@@ -1,6 +1,8 @@
 <template>
-  <div class="card bg-blend-color">
-    <slot></slot>
+  <div class="aura aura-glow">
+    <div class="card">
+      <slot></slot>
+    </div>
   </div>
 </template>
 

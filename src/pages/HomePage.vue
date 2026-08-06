@@ -1,5 +1,5 @@
 <template>
-  <BaseCard> test card! </BaseCard>
+  <BaseCard>test</BaseCard>
 </template>
 
 <script setup>
