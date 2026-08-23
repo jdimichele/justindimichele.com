@@ -1,7 +1,7 @@
 <template>
   <StarsBackground />
   <div>
-    <router-view></router-view>
+    <RouterView></RouterView>
   </div>
 </template>
 
