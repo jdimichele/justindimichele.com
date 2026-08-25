@@ -1,5 +1,5 @@
 <template>
-  <div class="aura aura-glow">
+  <div class="">
     <div class="card">
       <slot></slot>
     </div>

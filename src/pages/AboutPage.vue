@@ -1,1 +1,3 @@
-<template></template>
+<template>About Page</template>
+
+<script setup></script>

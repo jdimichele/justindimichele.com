@@ -14,14 +14,16 @@
     "@tailwindcss/vite": "^4.3.3",
     "motion-v": "^2.3.0",
     "pinia": "^4.0.2",
-    "tailwindcss": "^4.3.3",
     "vue": "rc",
     "vue-router": "^5.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.8",
+    "autoprefixer": "^10.5.4",
     "daisyui": "^5.7.16",
+    "postcss": "^8.5.26",
     "prettier": "3.9.5",
+    "tailwindcss": "^4.3.3",
     "vite": "^8.1.5",
     "vite-plugin-vue-devtools": "^8.1.5"
   },
