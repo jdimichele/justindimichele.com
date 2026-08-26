@@ -6,6 +6,9 @@
 </template>
 
 <script setup>
+/* Thank you to jaykdoe for the idea of the background found at:
+    https://uiverse.io/jaykdoe/tasty-dragon-12 !
+*/
 import { ref, onMounted } from 'vue'
 
 const stars1 = ref(null)

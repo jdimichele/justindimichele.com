@@ -1,18 +1,88 @@
 <template>
-  <nav class="navbar">
-    <ul>
+  <div v-if="!mobile" v-show="$route.name === 'home'" class="navbar">
+    <ul class="text-jd-cool-steel font-jd-body text-2xl">
       <li>
-        <RouterLink to="about" class="">About</RouterLink>
+        <RouterLink to="/about" class="hover:text-jd-wisteria">About</RouterLink>
       </li>
       <li>
-        <RouterLink to="/projects" class="">Projects</RouterLink>
+        <RouterLink to="/projects" class="hover:text-jd-wisteria">Projects</RouterLink>
       </li>
       <li>
-        <RouterLink to="/blog" class="">Blog</RouterLink>
+        <RouterLink to="/blog" class="hover:text-jd-wisteria">Blog</RouterLink>
       </li>
       <li>
-        <RouterLink to="/contact" class="">Contact</RouterLink>
+        <RouterLink to="/contact" class="hover:text-jd-wisteria">Contact</RouterLink>
       </li>
     </ul>
-  </nav>
+  </div>
+
+  <!-- Top Nav for other pages -->
+  <div v-if="!mobile" v-show="$route.name !== 'home'" class="navbar animate-slide-in-center">
+    <div class="flex-1">
+      <RouterLink to="/"><img src="../../../public/letter_j.png" class="size-8" /></RouterLink>
+    </div>
+    <div class="text-jd-cool-steel font-jd-body flex-none">
+      <ul class="menu menu-horizontal px-1">
+        <li>
+          <RouterLink to="/about" class="hover:text-jd-wisteria">About</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/projects" class="hover:text-jd-wisteria">Projects</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/blog" class="hover:text-jd-wisteria">Blog</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/contact" class="hover:text-jd-wisteria">Contact</RouterLink>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Mobile Nav -->
+  <div v-if="mobile">
+    MOBILE
+    <ul class="text-jd-cool-steel font-jd-body">
+      <li>
+        <RouterLink to="/about" class="hover:text-jd-wisteria">About</RouterLink>
+      </li>
+      <li>
+        <RouterLink to="/projects" class="hover:text-jd-wisteria">Projects</RouterLink>
+      </li>
+      <li>
+        <RouterLink to="/blog" class="hover:text-jd-wisteria">Blog</RouterLink>
+      </li>
+      <li>
+        <RouterLink to="/contact" class="hover:text-jd-wisteria">Contact</RouterLink>
+      </li>
+    </ul>
+  </div>
 </template>
+
+<script setup>
+import { onMounted } from 'vue'
+
+var mobile
+var mobileNav
+var windowWidth
+
+function checkScreenSize() {
+  windowWidth = window.innerWidth
+  if (windowWidth <= 816) {
+    mobile = true
+    return
+  }
+  mobile = false
+  mobileNav = false
+  return
+}
+
+function toggleMobileNav() {
+  mobileNav = !mobileNav
+}
+
+onMounted(() => {
+  window.addEventListener('resize', checkScreenSize())
+  checkScreenSize()
+})
+</script>

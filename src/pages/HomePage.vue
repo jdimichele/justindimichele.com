@@ -1,16 +1,19 @@
 <template>
   <div class="flex justify-center content-center items-center m-auto h-screen">
-    <div class="flex flex-wrap columns-2">
-      <div class="self-center">
-        <BaseCard
-          ><h1 class="animate-slide-in-center">{{ randomGreeting() }}</h1>
-          My name is Justin.</BaseCard
-        >
+    <BaseCard class="">
+      <div class="flex columns-3">
+        <div class="self-center">
+          <h1 class="animate-slide-in-center text-jd-old-gold font-jd-title text-3xl">
+            {{ randomGreeting() }}
+          </h1>
+          <h1 class="text-jd-cool-steel font-jd-body text-2xl">My name is Justin.</h1>
+        </div>
+        <div class="divider divider-horizontal divider-warning"></div>
+        <div class="self-center">
+          <Navbar></Navbar>
+        </div>
       </div>
-      <div class="self-center">
-        <Navbar></Navbar>
-      </div>
-    </div>
+    </BaseCard>
   </div>
 </template>
 
