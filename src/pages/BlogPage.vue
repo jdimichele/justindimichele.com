@@ -1,3 +1,7 @@
-<template><div>Blog Page</div></template>
+<template>
+  <Navbar></Navbar>
+</template>
 
-<script setup></script>
+<script setup>
+import Navbar from '@/components/ui/Navbar.vue'
+</script>

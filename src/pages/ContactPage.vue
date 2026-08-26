@@ -1,5 +1,7 @@
 <template>
-  <div>Contact Page</div>
+  <Navbar></Navbar>
 </template>
 
-<script setup></script>
+<script setup>
+import Navbar from '@/components/ui/Navbar.vue'
+</script>
