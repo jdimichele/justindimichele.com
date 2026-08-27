@@ -19,7 +19,11 @@
   <!-- Top Nav for other pages -->
   <div v-if="!mobile" v-show="$route.name !== 'home'" class="navbar animate-slide-in-center">
     <div class="flex-1 p-2">
-      <RouterLink to="/"><img src="../../../public/letter_j.png" class="size-8" /></RouterLink>
+      <ul>
+        <li>
+          <RouterLink to="/"><img src="../../../public/letter_j.png" class="size-8" /></RouterLink>
+        </li>
+      </ul>
     </div>
     <div class="text-jd-cool-steel font-jd-body flex-none">
       <ul class="menu menu-horizontal px-1 text-2xl">
