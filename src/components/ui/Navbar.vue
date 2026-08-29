@@ -21,7 +21,7 @@
     <div class="flex-1 p-2">
       <ul>
         <li>
-          <RouterLink to="/"><img src="../../../public/letter_j.png" class="size-8" /></RouterLink>
+          <RouterLink to="/"><img src="/letter_j.png" class="size-8" /></RouterLink>
         </li>
       </ul>
     </div>

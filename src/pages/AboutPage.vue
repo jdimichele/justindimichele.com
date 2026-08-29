@@ -1,14 +1,15 @@
 <template>
   <Navbar></Navbar>
 
-  <div class="flex flex-col my-20">
-    <div class="text-center">
+  <main class="flex flex-col">
+    <div class="">
       <h1 class="font-jd-title">About</h1>
     </div>
-    <div class="">
+
+    <div class="items-center justify-center">
       <p>Test 2</p>
     </div>
-  </div>
+  </main>
 </template>
 
 <script setup>
