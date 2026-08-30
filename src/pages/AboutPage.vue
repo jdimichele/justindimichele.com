@@ -1,15 +1,18 @@
 <template>
   <Navbar></Navbar>
-
-  <main class="flex flex-col">
-    <div class="">
-      <h1 class="font-jd-title">About</h1>
+  <div class="flex">
+    <div class="justify-center">
+      <div class="">
+        <h1 class="font-jd-title">About</h1>
+      </div>
     </div>
-
-    <div class="items-center justify-center">
+    <div class="">
       <p>Test 2</p>
     </div>
-  </main>
+    <div class="">
+      <p>Test 3</p>
+    </div>
+  </div>
 </template>
 
 <script setup>
