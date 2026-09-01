@@ -8,7 +8,7 @@
         <RouterLink to="/projects" class="hover:text-jd-wisteria">Projects</RouterLink>
       </li>
       <li>
-        <RouterLink to="/blog" class="hover:text-jd-wisteria">Blog</RouterLink>
+        <RouterLink to="/blog" class="hover:text-jd-wisteria">Blogs</RouterLink>
       </li>
       <li>
         <RouterLink to="/contact" class="hover:text-jd-wisteria">Contact</RouterLink>
@@ -34,7 +34,7 @@
           <RouterLink to="/projects" class="hover:text-jd-wisteria">Projects</RouterLink>
         </li>
         <li>
-          <RouterLink to="/blog" class="hover:text-jd-wisteria">Blog</RouterLink>
+          <RouterLink to="/blog" class="hover:text-jd-wisteria">Blogs</RouterLink>
         </li>
         <li>
           <RouterLink to="/contact" class="hover:text-jd-wisteria">Contact</RouterLink>
@@ -54,7 +54,7 @@
         <RouterLink to="/projects" class="hover:text-jd-wisteria">Projects</RouterLink>
       </li>
       <li>
-        <RouterLink to="/blog" class="hover:text-jd-wisteria">Blog</RouterLink>
+        <RouterLink to="/blog" class="hover:text-jd-wisteria">Blogs</RouterLink>
       </li>
       <li>
         <RouterLink to="/contact" class="hover:text-jd-wisteria">Contact</RouterLink>

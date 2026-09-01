@@ -1,14 +1,24 @@
 <template>
   <Navbar></Navbar>
-  <div class="flex">
-    <div class="justify-center">
-      <div class="">
-        <h1 class="font-jd-title">About</h1>
+
+  <div class="mx-auto max-w-2-5 my-10">
+    <div class="my-5 text-3xl font-jd-title text-jd-old-gold">
+      <h1 class="before:underline before:scale-x-100 before:origin-left">About</h1>
+    </div>
+
+    <div class="text-xl font-jd-body">
+      <div class="items-center justify-center">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum
+        </p>
       </div>
     </div>
-    <div class="">
-      <p>Test 2</p>
-    </div>
+
     <div class="">
       <p>Test 3</p>
     </div>
