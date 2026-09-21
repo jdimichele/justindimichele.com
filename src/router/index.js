@@ -3,7 +3,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '@/pages/HomePage.vue'
 import AboutPage from '@/pages/AboutPage.vue'
 import ProjectsPage from '@/pages/ProjectsPage.vue'
-import BlogsPage from '@/pages/BlogsPage.vue'
+import BlogList from '@/pages/BlogList.vue'
+import BlogPage from '@/pages/BlogPage.vue'
 import ContactPage from '@/pages/ContactPage.vue'
 
 const routes = [
@@ -27,9 +28,14 @@ const routes = [
     component: ProjectsPage,
   },
   {
-    path: '/blogs',
-    name: 'blogs',
-    component: BlogsPage,
+    path: '/blog',
+    name: 'blog',
+    component: BlogList,
+  },
+  {
+    path: '/blog/:id',
+    name: 'BlogPage',
+    component: BlogPage,
   },
   {
     path: '/contact',
