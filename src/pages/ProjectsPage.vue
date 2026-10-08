@@ -12,8 +12,8 @@
       </div>
 
       <div class="grid grid-cols-2 grid-rows-3">
-        <div>Grid 1</div>
-        <div>Grid 2</div>
+        <div>Danby Volunteer Fire Company</div>
+        <div>Rutabaga</div>
         <div>Grid 3</div>
         <div>Grid 4</div>
         <div>Grid 5</div>

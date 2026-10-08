@@ -2,16 +2,18 @@
   <div v-if="!mobile" v-show="$route.name === 'home'" class="navbar">
     <ul class="text-jd-cool-steel font-jd-body text-2xl">
       <li>
-        <RouterLink to="/about" class="hover:text-jd-wisteria">About</RouterLink>
+        <RouterLink to="/about" class="hover:text-jd-subheader text-jd-muted">About</RouterLink>
       </li>
       <li>
-        <RouterLink to="/projects" class="hover:text-jd-wisteria">Projects</RouterLink>
+        <RouterLink to="/projects" class="hover:text-jd-subheader text-jd-muted"
+          >Projects</RouterLink
+        >
       </li>
       <li>
-        <RouterLink to="/blog" class="hover:text-jd-wisteria">Blog</RouterLink>
+        <RouterLink to="/blog" class="hover:text-jd-subheader text-jd-muted">Blog</RouterLink>
       </li>
       <li>
-        <RouterLink to="/contact" class="hover:text-jd-wisteria">Contact</RouterLink>
+        <RouterLink to="/contact" class="hover:text-jd-subheader text-jd-muted">Contact</RouterLink>
       </li>
     </ul>
   </div>
@@ -28,16 +30,20 @@
     <div class="text-jd-cool-steel font-jd-body flex-none">
       <ul class="menu menu-horizontal px-1 text-2xl">
         <li>
-          <RouterLink to="/about" class="hover:text-jd-wisteria">About</RouterLink>
+          <RouterLink to="/about" class="hover:text-jd-subheader text-jd-muted">About</RouterLink>
         </li>
         <li>
-          <RouterLink to="/projects" class="hover:text-jd-wisteria">Projects</RouterLink>
+          <RouterLink to="/projects" class="hover:text-jd-subheader text-jd-muted"
+            >Projects</RouterLink
+          >
         </li>
         <li>
-          <RouterLink to="/blog" class="hover:text-jd-wisteria">Blog</RouterLink>
+          <RouterLink to="/blog" class="hover:text-jd-subheader text-jd-muted">Blog</RouterLink>
         </li>
         <li>
-          <RouterLink to="/contact" class="hover:text-jd-wisteria">Contact</RouterLink>
+          <RouterLink to="/contact" class="hover:text-jd-subheader text-jd-muted"
+            >Contact</RouterLink
+          >
         </li>
       </ul>
     </div>
@@ -47,16 +53,18 @@
   <div v-if="mobile">
     <ul class="text-jd-cool-steel font-jd-body">
       <li>
-        <RouterLink to="/about" class="hover:text-jd-wisteria">About</RouterLink>
+        <RouterLink to="/about" class="hover:text-jd-subheader text-jd-muted">About</RouterLink>
       </li>
       <li>
-        <RouterLink to="/projects" class="hover:text-jd-wisteria">Projects</RouterLink>
+        <RouterLink to="/projects" class="hover:text-jd-subheader text-jd-muted"
+          >Projects</RouterLink
+        >
       </li>
       <li>
-        <RouterLink to="/blogs" class="hover:text-jd-wisteria">Blogs</RouterLink>
+        <RouterLink to="/blogs" class="hover:text-jd-subheader text-jd-muted">Blogs</RouterLink>
       </li>
       <li>
-        <RouterLink to="/contact" class="hover:text-jd-wisteria">Contact</RouterLink>
+        <RouterLink to="/contact" class="hover:text-jd-subheader text-jd-muted">Contact</RouterLink>
       </li>
     </ul>
   </div>

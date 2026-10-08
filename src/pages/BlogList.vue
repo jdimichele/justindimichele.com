@@ -12,12 +12,12 @@
       </div>
     </div>
 
-    <div class="mx-auto my-10">
-      <article v-for="item in blogs" :key="item.id" class="flex">
+    <div class="flex mx-auto my-10">
+      <article v-for="item in blogs" :key="item.id" class="">
         <router-link :to="`/blog/${item.id}`">
           <h2 class="font-jd-title text-2xl text-jd-wisteria">{{ item.meta.title }}</h2>
         </router-link>
-        <time>{{ item.meta.date }}</time>
+        <time class="">{{ item.meta.date }}</time>
         <p>{{ item.meta.summary }}</p>
       </article>
     </div>

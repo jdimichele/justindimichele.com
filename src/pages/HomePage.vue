@@ -3,10 +3,10 @@
     <BaseCard class="">
       <div class="flex columns-3">
         <div class="self-center">
-          <h1 class="animate-slide-in-center text-jd-old-gold font-jd-title text-3xl">
+          <h1 class="animate-slide-in-center text-jd-header font-jd-title text-3xl">
             {{ randomGreeting() }}
           </h1>
-          <h1 class="text-jd-cool-steel font-jd-body text-2xl">My name is Justin.</h1>
+          <h1 class="text-jd-subheader font-jd-body text-2xl">My name is Justin.</h1>
         </div>
         <div class="divider divider-horizontal divider-warning"></div>
         <div class="self-center">
