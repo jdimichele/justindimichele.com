@@ -1,6 +1,6 @@
 <template>
   <div v-if="!mobile" v-show="$route.name === 'home'" class="navbar">
-    <ul class="text-jd-cool-steel font-jd-body text-2xl">
+    <ul class=" text-jd-muted font-jd-body text-2xl">
       <li>
         <RouterLink to="/about" class="hover:text-jd-subheader text-jd-muted">about</RouterLink>
       </li>
@@ -83,7 +83,7 @@ function checkScreenSize() {
 
 onMounted(() => {
   checkScreenSize()
-  window.addEventListener('resize', checkScreenSize())
+  window.addEventListener('resize', checkScreenSize)
 })
 
 onUnmounted(() => {

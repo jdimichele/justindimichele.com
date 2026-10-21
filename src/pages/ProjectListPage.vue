@@ -25,12 +25,11 @@
 </template>
 
 <script setup>
-import Navbar from '@/components/ui/Navbar.vue'
 
 const projects = [{
   id: 'danby-fire-company',
-  title: '',
-  summary: '',
+  title: 'Danby Volunteer Fire Company',
+  summary: 'An informational website made for the Danby Fire Department of New York.',
   image: '/src/assets/images/dvfc_home.png',
 },
 {
