@@ -6,7 +6,7 @@
           <h1 class="animate-slide-in-center text-jd-header font-jd-title text-3xl">
             {{ randomGreeting() }}
           </h1>
-          <h1 class="text-jd-subheader font-jd-body text-2xl">My name is Justin.</h1>
+          <h1 class="text-jd-subheader font-jd-body text-2xl">my name is Justin.</h1>
         </div>
         <div class="divider divider-horizontal divider-warning"></div>
         <div class="self-center">
@@ -23,13 +23,12 @@ import Navbar from '@/components/ui/Navbar.vue'
 import { onMounted } from 'vue'
 
 const greetings = [
-  'Hellooooo!',
-  'Howdy!',
-  'Hello there!',
-  'Hi!',
-  'Hi, how are ya?',
-  'Hey!',
-  'Nice to meet you!',
+  'howdy!',
+  'hello there!',
+  'hi!',
+  'hi, how are ya?',
+  'hey!',
+  'nice to meet you!',
 ]
 
 function randomGreeting() {

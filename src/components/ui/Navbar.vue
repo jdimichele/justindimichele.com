@@ -2,18 +2,18 @@
   <div v-if="!mobile" v-show="$route.name === 'home'" class="navbar">
     <ul class="text-jd-cool-steel font-jd-body text-2xl">
       <li>
-        <RouterLink to="/about" class="hover:text-jd-subheader text-jd-muted">About</RouterLink>
+        <RouterLink to="/about" class="hover:text-jd-subheader text-jd-muted">about</RouterLink>
       </li>
       <li>
         <RouterLink to="/projects" class="hover:text-jd-subheader text-jd-muted"
-          >Projects</RouterLink
+          >projects</RouterLink
         >
       </li>
       <li>
-        <RouterLink to="/blog" class="hover:text-jd-subheader text-jd-muted">Blog</RouterLink>
+        <RouterLink to="/blog" class="hover:text-jd-subheader text-jd-muted">blog</RouterLink>
       </li>
       <li>
-        <RouterLink to="/contact" class="hover:text-jd-subheader text-jd-muted">Contact</RouterLink>
+        <RouterLink to="/contact" class="hover:text-jd-subheader text-jd-muted">contact</RouterLink>
       </li>
     </ul>
   </div>
@@ -30,19 +30,19 @@
     <div class="text-jd-cool-steel font-jd-body flex-none">
       <ul class="menu menu-horizontal px-1 text-2xl">
         <li>
-          <RouterLink to="/about" class="hover:text-jd-subheader text-jd-muted">About</RouterLink>
+          <RouterLink to="/about" class="hover:text-jd-subheader text-jd-muted">about</RouterLink>
         </li>
         <li>
           <RouterLink to="/projects" class="hover:text-jd-subheader text-jd-muted"
-            >Projects</RouterLink
+            >projects</RouterLink
           >
         </li>
         <li>
-          <RouterLink to="/blog" class="hover:text-jd-subheader text-jd-muted">Blog</RouterLink>
+          <RouterLink to="/blog" class="hover:text-jd-subheader text-jd-muted">blog</RouterLink>
         </li>
         <li>
           <RouterLink to="/contact" class="hover:text-jd-subheader text-jd-muted"
-            >Contact</RouterLink
+            >contact</RouterLink
           >
         </li>
       </ul>
@@ -53,47 +53,40 @@
   <div v-if="mobile">
     <ul class="text-jd-cool-steel font-jd-body">
       <li>
-        <RouterLink to="/about" class="hover:text-jd-subheader text-jd-muted">About</RouterLink>
+        <RouterLink to="/about" class="hover:text-jd-subheader text-jd-muted">about</RouterLink>
       </li>
       <li>
         <RouterLink to="/projects" class="hover:text-jd-subheader text-jd-muted"
-          >Projects</RouterLink
+          >projects</RouterLink
         >
       </li>
       <li>
-        <RouterLink to="/blogs" class="hover:text-jd-subheader text-jd-muted">Blogs</RouterLink>
+        <RouterLink to="/blogs" class="hover:text-jd-subheader text-jd-muted">blogs</RouterLink>
       </li>
       <li>
-        <RouterLink to="/contact" class="hover:text-jd-subheader text-jd-muted">Contact</RouterLink>
+        <RouterLink to="/contact" class="hover:text-jd-subheader text-jd-muted">contact</RouterLink>
       </li>
     </ul>
   </div>
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 
-var mobile
-var mobileNav
-var windowWidth
+const mobile = ref(false)
+const windowWidth = ref(window.innerWidth)
 
 function checkScreenSize() {
-  windowWidth = window.innerWidth
-  if (windowWidth <= 816) {
-    mobile = true
-    return
-  }
-  mobile = false
-  mobileNav = false
-  return
-}
-
-function toggleMobileNav() {
-  mobileNav = !mobileNav
+  windowWidth.value = window.innerWidth
+  mobile.value = windowWidth <= 816 // Shot in the dark here.
 }
 
 onMounted(() => {
-  window.addEventListener('resize', checkScreenSize())
   checkScreenSize()
+  window.addEventListener('resize', checkScreenSize())
+})
+
+onUnmounted(() => {
+  window.removeEventListener('resize', checkScreenSize)
 })
 </script>
