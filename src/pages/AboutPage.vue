@@ -3,9 +3,9 @@
 
   <div class="mx-auto max-w-2-5 my-10">
     <div class="my-10">
-      <div class="my-5 text-3xl font-jd-title text-jd-header">
+      <div class="my-5 text-4xl font-jd-title text-jd-header">
         <h1
-          class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
+          class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
         >
           About
         </h1>
@@ -13,19 +13,19 @@
 
       <div class="my-5">
         <p class="text-xl font-jd-body text-jd-body">
-          Hey there, my name is Justin. I'm a software engineer with years of quality engineering
-          behind me. I love making apps, websites, and games. Quality is something I care a lot
-          about in all my endeavors.
+          Hey there, I'm Justin. I'm a software engineer with years of quality engineering behind
+          me. I love making apps, websites, and video games. Quality is something I care a lot about
+          in all my endeavors and strive to make it known in all of them.
         </p>
       </div>
     </div>
 
     <div class="my-10">
-      <div class="my-5 text-3xl font-jd-title text-jd-header">
+      <div class="my-5 text-4xl font-jd-title text-jd-header">
         <h1
-          class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-[3px] after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
+          class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
         >
-          Skills <b class="text-jd-subheader">&</b> Experience
+          Skills
         </h1>
       </div>
 
