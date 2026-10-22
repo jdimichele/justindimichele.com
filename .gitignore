@@ -14,6 +14,9 @@ dist-ssr
 coverage
 *.local
 
+# Other things I'd like ignored:
+src/assets/Justin DiMichele Resume 2026.pdf
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

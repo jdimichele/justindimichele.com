@@ -1,6 +1,6 @@
 <template>
-  <div v-if="!mobile" v-show="$route.name === 'home'" class="navbar">
-    <ul class=" text-jd-muted font-jd-body text-2xl">
+  <div v-if="!mobile && $route.name === 'home'" class="navbar">
+    <ul class="text-jd-muted font-jd-body text-2xl">
       <li>
         <RouterLink to="/about" class="hover:text-jd-subheader text-jd-muted">about</RouterLink>
       </li>
@@ -19,7 +19,10 @@
   </div>
 
   <!-- Top Nav for other pages -->
-  <div v-if="!mobile" v-show="$route.name !== 'home'" class="navbar animate-slide-in-center">
+  <div
+    v-else-if="!mobile"
+    class="navbar !bg-transparent bg-none shadow-none absolute top-0 left-0 w-full z-50 animate-slide-in-center"
+  >
     <div class="flex-1 p-2">
       <ul>
         <li>

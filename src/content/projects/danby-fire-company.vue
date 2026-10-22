@@ -8,11 +8,11 @@
   </ProjectLayout>
   <div>
     <article class="max-w-4xl mx-auto py-10 px-4">
-      <div>
+      <div class="carousel">
         <img :src="imagePath" alt="" class="rounded-2xl" />
       </div>
     </article>
-  </div> 
+  </div>
 </template>
 
 <script setup>

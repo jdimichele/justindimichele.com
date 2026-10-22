@@ -1,6 +1,6 @@
 <template>
-  <div class="mx-auto max-w-2-5 my-10">
-    <div class="my-10">
+  <div class="mx-auto max-w-2-5 pt-28 pb-10">
+    <div class="">
       <div class="my-5 text-4xl font-jd-title text-jd-header">
         <h1
           class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
@@ -11,9 +11,9 @@
 
       <div class="my-5">
         <p class="text-xl font-jd-body text-jd-body">
-          My name is Justin, a software engineer with years of quality engineering behind
-          me. I love making apps, websites, and video games. Quality is something I care a lot about
-          in all my endeavors and strive to make it known in all of them.
+          My name is Justin, a software engineer with years of quality engineering behind me. I love
+          making apps, websites, and video games. Quality is something I care a lot about in all my
+          endeavors and strive to make it known in all of them.
         </p>
       </div>
     </div>
@@ -28,7 +28,7 @@
       </div>
 
       <div class="">
-        <ul class="text-xl font-jd-body text-jd-cool-steel">
+        <ul class="text-xl font-jd-body">
           <div class="my-4">
             <h3 class="text-jd-subheader">Languages:</h3>
             <li class="text-jd-body">
@@ -69,9 +69,39 @@
         </ul>
       </div>
     </div>
+
+    <div class="my-10">
+      <div class="my-5 text-4xl font-jd-title text-jd-header flex items-center">
+        <h1
+          class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
+        >
+          experience
+        </h1>
+        <a
+          href="/assets/Justin DiMichele Resume 2026.pdf"
+          download="Justin DiMichele Resume 2026.pdf"
+          class="inline-flex translate-y-0.5 gap-2 hover:text-jd-muted text-jd-subheader transition-colors pl-2"
+          ><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 256 256">
+            <!-- Icon from Phosphor by Phosphor Icons - https://github.com/phosphor-icons/core/blob/main/LICENSE -->
+            <path
+              fill="currentColor"
+              d="m210.43 41.22l-130.25-23A14 14 0 0 0 64 29.58l-29.75 169a14 14 0 0 0 11.36 16.22l130.25 23a13.6 13.6 0 0 0 2.46.22a14 14 0 0 0 13.68-11.6l29.75-169a14 14 0 0 0-11.32-16.2M210 55.36l-29.75 169a2 2 0 0 1-.82 1.3a2 2 0 0 1-1.49.33L47.65 203a2 2 0 0 1-1.65-2.36l29.75-169a2 2 0 0 1 .82-1.3A2.06 2.06 0 0 1 78.1 30l130.25 23a2 2 0 0 1 1.65 2.36m-23.89 20.15a6 6 0 0 1-5.9 5a6 6 0 0 1-1.05-.09l-83-14.66a6 6 0 1 1 2.09-11.81l83 14.65a6 6 0 0 1 4.86 6.91M180.56 107a6 6 0 0 1-5.9 5a5.5 5.5 0 0 1-1-.1l-83-14.65a6 6 0 0 1 2.09-11.82l83 14.66a6 6 0 0 1 4.81 6.91m-47 24.19a6 6 0 0 1-5.91 4.95a6.4 6.4 0 0 1-1.05-.09l-41.49-7.33a6 6 0 1 1 2.09-11.81l41.49 7.32a6 6 0 0 1 4.84 6.99Z"
+            /></svg
+        ></a>
+      </div>
+
+      <div>
+        <ul class="font-jd-body">
+          <div class="my-4">
+            <h3 class="text-xl text-jd-subheader">ServiceNow</h3>
+            <li class="text-jd-body">I did things here.</li>
+          </div>
+          <div>
+            <h3 class="text-xl text-jd-subheader">SEAMGroup (Predictive Service)</h3>
+            <li class="text-jd-body">I did things here too.</li>
+          </div>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
-
-<script setup>
-import Navbar from '@/components/ui/Navbar.vue'
-</script>

@@ -37,7 +37,7 @@
           :href="website"
           target="_blank"
           rel="noopener noreferrer"
-          class="hover:text-jd-subheader text-jd-muted inline-flex items-center gap-1 transition-colors"
+          class="hover:text-jd-muted text-jd-subheader inline-flex items-center gap-1 transition-colors"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@
         :href="github"
         target="_blank"
         rel="noopener noreferrer"
-        class="hover:text-jd-subheader text-jd-muted inline-flex items-center gap-1 transition-colors"
+        class="hover:text-jd-muted text-jd-subheader inline-flex items-center gap-1 transition-colors"
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
           <path
@@ -70,7 +70,7 @@
       </a>
     </div>
 
-    <div class="space-y-8 text-jd-cool-steel">
+    <div class="space-y-8 text-jd-body">
       <slot />
     </div>
   </article>
