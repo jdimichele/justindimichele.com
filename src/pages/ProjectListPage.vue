@@ -17,7 +17,11 @@
           <div class="text-jd-subheader font-jd-title text-xl">{{ project.title }}</div>
           <div class="text-jd-muted font-jd-body text-sm">{{ project.summary }}</div>
           <router-link :to="`/projects/${project.id}`" class="flex flex-col h-full">
-            <img :src="project.image" alt="" class="w-full h-48 object-cover rounded-2xl hover:aura hover:aura-md" />
+            <img
+              :src="project.image"
+              alt=""
+              class="w-full h-48 object-cover rounded-2xl hover:aura hover:aura-md"
+            />
           </router-link>
         </article>
       </div>
@@ -37,6 +41,12 @@ const projects = [
     id: 'rutabaga-app',
     title: 'Rutabaga',
     summary: "A recipe app I made for my wife (so she wouldn't have to pay for NYT Cooking).",
+    image: '',
+  },
+  {
+    id: 'dimidapp-day',
+    title: 'Dimidapp.day',
+    summary: "My wedding website that handled RSVPs, photos, and more!",
     image: '',
   },
 ]

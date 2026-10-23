@@ -9,28 +9,30 @@
       <p class="text-md text-jd-muted font-jd-body pt-2">Feel free to say hi!</p>
     </div>
 
-    <div class="py-2">
-      <span class="font-jd-body text-jd-body pr-2">Email: </span>
-      <a
-        href="mailto:justindimichele@gmail.com"
-        class="inline-flex items-center gap-2 hover:text-jd-muted text-jd-subheader transition-colors"
-      >
-        <span>justindimichele@gmail.com</span>
-      </a>
-    </div>
+    <div class="flex">
+      <div class="py-2 card">
+        <span class="font-jd-body text-jd-body pr-2">Email: </span>
+        <a
+          href="mailto:justindimichele@gmail.com"
+          class="inline-flex items-center gap-2 hover:text-jd-muted text-jd-subheader transition-colors"
+        >
+          <span>justindimichele@gmail.com</span>
+        </a>
+      </div>
 
-    <div class="flex py-10">
-      <span class="font-jd-body text-jd-body pr-2">Resume: </span>
-      <a
-        href="/assets/Justin DiMichele Resume 2026.pdf"
-        class="inline-flex items-center gap-2 hover:text-jd-muted text-jd-subheader transition-colors"
-        ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
-          <!-- Icon from Phosphor by Phosphor Icons - https://github.com/phosphor-icons/core/blob/main/LICENSE -->
-          <path
-            fill="currentColor"
-            d="m210.43 41.22l-130.25-23A14 14 0 0 0 64 29.58l-29.75 169a14 14 0 0 0 11.36 16.22l130.25 23a13.6 13.6 0 0 0 2.46.22a14 14 0 0 0 13.68-11.6l29.75-169a14 14 0 0 0-11.32-16.2M210 55.36l-29.75 169a2 2 0 0 1-.82 1.3a2 2 0 0 1-1.49.33L47.65 203a2 2 0 0 1-1.65-2.36l29.75-169a2 2 0 0 1 .82-1.3A2.06 2.06 0 0 1 78.1 30l130.25 23a2 2 0 0 1 1.65 2.36m-23.89 20.15a6 6 0 0 1-5.9 5a6 6 0 0 1-1.05-.09l-83-14.66a6 6 0 1 1 2.09-11.81l83 14.65a6 6 0 0 1 4.86 6.91M180.56 107a6 6 0 0 1-5.9 5a5.5 5.5 0 0 1-1-.1l-83-14.65a6 6 0 0 1 2.09-11.82l83 14.66a6 6 0 0 1 4.81 6.91m-47 24.19a6 6 0 0 1-5.91 4.95a6.4 6.4 0 0 1-1.05-.09l-41.49-7.33a6 6 0 1 1 2.09-11.81l41.49 7.32a6 6 0 0 1 4.84 6.99Z"
-          /></svg
-      ></a>
+      <div class="py-2 card">
+        <span class="font-jd-body text-jd-body pr-2">Resume: </span>
+        <a
+          href="/assets/Justin DiMichele Resume 2026.pdf"
+          class="inline-flex items-center gap-2 hover:text-jd-muted text-jd-subheader transition-colors"
+          ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
+            <!-- Icon from Phosphor by Phosphor Icons - https://github.com/phosphor-icons/core/blob/main/LICENSE -->
+            <path
+              fill="currentColor"
+              d="m210.43 41.22l-130.25-23A14 14 0 0 0 64 29.58l-29.75 169a14 14 0 0 0 11.36 16.22l130.25 23a13.6 13.6 0 0 0 2.46.22a14 14 0 0 0 13.68-11.6l29.75-169a14 14 0 0 0-11.32-16.2M210 55.36l-29.75 169a2 2 0 0 1-.82 1.3a2 2 0 0 1-1.49.33L47.65 203a2 2 0 0 1-1.65-2.36l29.75-169a2 2 0 0 1 .82-1.3A2.06 2.06 0 0 1 78.1 30l130.25 23a2 2 0 0 1 1.65 2.36m-23.89 20.15a6 6 0 0 1-5.9 5a6 6 0 0 1-1.05-.09l-83-14.66a6 6 0 1 1 2.09-11.81l83 14.65a6 6 0 0 1 4.86 6.91M180.56 107a6 6 0 0 1-5.9 5a5.5 5.5 0 0 1-1-.1l-83-14.65a6 6 0 0 1 2.09-11.82l83 14.66a6 6 0 0 1 4.81 6.91m-47 24.19a6 6 0 0 1-5.91 4.95a6.4 6.4 0 0 1-1.05-.09l-41.49-7.33a6 6 0 1 1 2.09-11.81l41.49 7.32a6 6 0 0 1 4.84 6.99Z"
+            /></svg
+        ></a>
+      </div>
     </div>
 
     <div class="flex content-between gap-6 justify-center">
