@@ -9,9 +9,9 @@
       <p class="text-md text-jd-muted font-jd-body pt-2">Feel free to say hi!</p>
     </div>
 
-    <div class="flex">
-      <div class="py-2 card">
-        <span class="font-jd-body text-jd-body pr-2">Email: </span>
+    <div class="flex flex-wrap justify-center gap-1-3">
+      <div class="py-2 card bg-transparent">
+        <span class="font-jd-body text-jd-body pb-2">Email:</span>
         <a
           href="mailto:justindimichele@gmail.com"
           class="inline-flex items-center gap-2 hover:text-jd-muted text-jd-subheader transition-colors"
@@ -20,8 +20,8 @@
         </a>
       </div>
 
-      <div class="py-2 card">
-        <span class="font-jd-body text-jd-body pr-2">Resume: </span>
+      <div class="py-2 card bg-transparent">
+        <span class="font-jd-body text-jd-body pb-2">Resume:</span>
         <a
           href="/assets/Justin DiMichele Resume 2026.pdf"
           class="inline-flex items-center gap-2 hover:text-jd-muted text-jd-subheader transition-colors"
@@ -35,9 +35,9 @@
       </div>
     </div>
 
-    <div class="flex content-between gap-6 justify-center">
+    <div class="flex content-between gap-6 justify-center py-20">
       <span class="hover:text-jd-muted text-jd-subheader">
-        <a href="https://www.linkedin.com/in/justindimichele/" target="_blank">
+        <a href="https://github.com/jdimichele/" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
             <path
               fill="currentColor"
@@ -46,7 +46,7 @@
       ></span>
 
       <span class="hover:text-jd-muted text-jd-subheader"
-        ><a href="https://github.com/jdimichele/" target="_blank"
+        ><a href="https://www.linkedin.com/in/justindimichele" target="_blank"
           ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
             <!-- Icon from Phosphor by Phosphor Icons - https://github.com/phosphor-icons/core/blob/main/LICENSE -->
             <path

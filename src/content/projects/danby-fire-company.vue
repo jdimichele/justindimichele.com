@@ -5,14 +5,19 @@
     website="https://danbyfiredept.org/"
     github="https://github.com/jdimichele/DanbyFireDept"
   >
+    <div>
+      <article class="max-w-4xl mx-auto py-10 px-4">
+        <div class="carousel aura">
+          <img :src="imagePath" alt="" class="rounded-xl" />
+        </div>
+
+        <div>
+          <h1>Purpose:</h1>
+          <p>This started because Derek asked me to make him a website.</p>
+        </div>
+      </article>
+    </div>
   </ProjectLayout>
-  <div>
-    <article class="max-w-4xl mx-auto py-10 px-4">
-      <div class="carousel">
-        <img :src="imagePath" alt="" class="rounded-2xl" />
-      </div>
-    </article>
-  </div>
 </template>
 
 <script setup>

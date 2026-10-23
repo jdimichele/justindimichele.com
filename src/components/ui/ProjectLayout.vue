@@ -23,7 +23,7 @@
 
     <div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
       <div class="flex flex-col">
-        <h1 class="text-4xl sm:text-5xl text-jd-header tracking-wide">
+        <h1 class="text-4xl sm:text-5xl text-jd-subheader tracking-wide font-jd-title">
           {{ title }}
         </h1>
         <p class="text-lg text-jd-muted mt-2">
