@@ -5,6 +5,7 @@
     website="https://danbyfiredept.org/"
     github="https://github.com/jdimichele/DanbyFireDept"
   >
+    <div></div>
     <div>
       <article class="max-w-4xl mx-auto py-10 px-4">
         <div class="carousel aura">
