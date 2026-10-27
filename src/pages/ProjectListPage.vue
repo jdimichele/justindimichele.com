@@ -46,7 +46,7 @@ const projects = [
   {
     id: 'dimidapp-day',
     title: 'Dimidapp.day',
-    summary: "My wedding website that handled RSVPs, photos, and more!",
+    summary: 'My wedding website that handled RSVPs, photos, and more!',
     image: '',
   },
 ]
