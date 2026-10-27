@@ -90,15 +90,67 @@
         ></a>
       </div>
 
-      <div>
+      <div class="">
         <ul class="font-jd-body">
           <div class="my-4">
-            <h3 class="text-xl text-jd-subheader">ServiceNow</h3>
-            <li class="text-jd-body">I did things here.</li>
+            <div class="flex gap-10">
+              <h3 class="text-xl text-jd-subheader">ServiceNow</h3>
+              <h3 class="text-md text-jd-muted">10/2025 - Present</h3>
+            </div>
+            <div>
+              <h3 class="text-md text-jd-subheader italic">Software Engineer</h3>
+            </div>
+
+            <div class="indent-5 my-1">
+              <li class="text-jd-body">
+                As a Software Engineer at ServiceNow, I have been designing and shipping features
+                for the Discovery platform using Java, TypeScript, and AI-assisted workflows like
+                Claude Code. Resolving 20+ key product defects, delivered WCAG-compliant
+                accessibility enhancements, and pushed customer-facing schema changes and security
+                fixes all in the name of quality and stability.
+              </li>
+            </div>
           </div>
-          <div>
-            <h3 class="text-xl text-jd-subheader">SEAMGroup (Predictive Service)</h3>
-            <li class="text-jd-body">I did things here too.</li>
+
+          <div class="my-4">
+            <div class="flex gap-10">
+              <h3 class="text-xl text-jd-subheader">ServiceNow</h3>
+              <h3 class="text-jd-muted">12/2019 - 10/2025</h3>
+            </div>
+            <div>
+              <h3 class="text-jd-subheader italic">Software Quality Engineer</h3>
+            </div>
+
+            <div class="indent-5 my-1">
+              <li class="text-jd-body">
+                I joined as a Software Quality Engineer before transitioning to Software Engineer. I
+                achieved 80% test coverage by deploying custom MID Server scripts and building test
+                automation frameworks using Java, Selenium, Playwright, and Claude Code.
+                Additionally, I optimized JVM performance, secured installer builds across
+                platforms, and migrated test suites to Jenkins and Kubernetes pipelines to drive
+                end-to-end feature quality.
+              </li>
+            </div>
+          </div>
+
+          <div class="my-4">
+            <div class="flex gap-10">
+              <h3 class="text-xl text-jd-subheader">SEAMGroup</h3>
+              <h3 class="text-jd-muted">05/2018 - 11/2019</h3>
+            </div>
+            <div>
+              <h3 class="text-jd-subheader italic">QA Automation Engineer</h3>
+            </div>
+
+            <div class="indent-5 my-1">
+              <li class="text-jd-body">
+                SEAMGroup provided software and solutions to help industrial and commercial clients
+                optimize asset reliability and maintenance. During my time there, I created a
+                modular database migration program to move on-premise data to Azure Blob Storage and
+                built comprehensive cross-platform test automation frameworks from scratch using
+                Selenium, Appium, and Winium (C#).
+              </li>
+            </div>
           </div>
         </ul>
       </div>

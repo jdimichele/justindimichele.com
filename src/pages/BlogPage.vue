@@ -2,7 +2,7 @@
   <article v-if="blog">
     <header>
       <div>
-        <div class="my-10">
+        <div class="">
           <div class="max-w-3xl mx-auto py-6">
             <router-link
               to="/blog"

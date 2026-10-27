@@ -35,7 +35,6 @@
 </template>
 
 <script setup>
-import Navbar from '@/components/ui/Navbar.vue'
 import { onMounted, ref } from 'vue'
 import matter from 'gray-matter'
 
