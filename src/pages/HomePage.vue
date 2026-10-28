@@ -22,14 +22,7 @@ import BaseCard from '@/components/ui/BaseCard.vue'
 import Navbar from '@/components/ui/Navbar.vue'
 import { onMounted } from 'vue'
 
-const greetings = [
-  'howdy!',
-  'hello there!',
-  'hi!',
-  'hi, how are ya?',
-  'hey!',
-  'nice to meet you!',
-]
+const greetings = ['howdy!', 'hello there!', 'hi!', 'hi, how are ya?', 'hey!', 'nice to meet you!']
 
 function randomGreeting() {
   if (greetings.length > 0) {

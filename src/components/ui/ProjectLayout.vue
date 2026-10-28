@@ -27,7 +27,7 @@
         <h1 class="text-4xl sm:text-5xl text-jd-subheader tracking-wide font-jd-title">
           {{ title }}
         </h1>
-        <p class="text-lg text-jd-muted mt-2">
+        <p class="text-lg text-jd-body mt-2 font-jd-body">
           {{ summary }}
         </p>
       </div>

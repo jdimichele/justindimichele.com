@@ -94,7 +94,7 @@
         <ul class="font-jd-body">
           <div class="my-4">
             <div class="flex gap-10">
-              <h3 class="text-xl text-jd-subheader">ServiceNow</h3>
+              <h3 class="text-xl text-jd-subheader underline">ServiceNow</h3>
               <h3 class="text-md text-jd-muted">10/2025 - Present</h3>
             </div>
             <div>
@@ -114,7 +114,7 @@
 
           <div class="my-4">
             <div class="flex gap-10">
-              <h3 class="text-xl text-jd-subheader">ServiceNow</h3>
+              <h3 class="text-xl text-jd-subheader underline">ServiceNow</h3>
               <h3 class="text-jd-muted">12/2019 - 10/2025</h3>
             </div>
             <div>
@@ -123,19 +123,19 @@
 
             <div class="indent-5 my-1">
               <li class="text-jd-body">
-                I joined as a Software Quality Engineer before transitioning to Software Engineer. I
-                achieved 80% test coverage by deploying custom MID Server scripts and building test
-                automation frameworks using Java, Selenium, Playwright, and Claude Code.
-                Additionally, I optimized JVM performance, secured installer builds across
-                platforms, and migrated test suites to Jenkins and Kubernetes pipelines to drive
-                end-to-end feature quality.
+                I joined as a Software Quality Engineer in 2019 before transitioning to Software
+                Engineer in 2025. I achieved 80% test coverage by deploying custom MID Server
+                scripts and building test automation frameworks using Java, Selenium, Playwright,
+                and Claude Code. Additionally, I optimized JVM performance, secured installer builds
+                across platforms, and migrated test suites to Jenkins and Kubernetes pipelines to
+                drive end-to-end feature quality.
               </li>
             </div>
           </div>
 
           <div class="my-4">
             <div class="flex gap-10">
-              <h3 class="text-xl text-jd-subheader">SEAMGroup</h3>
+              <h3 class="text-xl text-jd-subheader underline">SEAMGroup</h3>
               <h3 class="text-jd-muted">05/2018 - 11/2019</h3>
             </div>
             <div>

@@ -34,7 +34,8 @@ const projects = [
   {
     id: 'danby-fire-company',
     title: 'Danby Volunteer Fire Company',
-    summary: 'An informational website made for the Danby Fire Department of New York.',
+    summary:
+      'An informational website made for the Danby Volunteer Fire Department of Danby, New York.',
     image: '/src/assets/images/dvfc_home.png',
   },
   {
