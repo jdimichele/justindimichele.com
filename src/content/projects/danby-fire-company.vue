@@ -30,20 +30,46 @@
     </div>
 
     <!-- Details -->
-    <div>
-      <article class="max-w-4xl mx-auto py-10 px-4">
+    <div class="max-w-4xl mx-auto py-10 px-4">
+      <article>
         <div class="carousel aura">
           <img :src="imagePath" alt="" class="rounded-xl" />
         </div>
 
-        <div class="mx-auto">
-          <h3 class="text-jd-header font-jd-title text-xl">purpose</h3>
-          <p>
-            Something I wasn't familiar with was the fact that a lot of communities and cities in
-            rural towns don't have the funding for a fully equipped fire department and resort to
-            funding and staffing firefighters through community outreach. One such place is a city
-            in New York called Danby.
+        <div class="mx-auto my-4">
+          <h3
+            class="text-jd-header font-jd-title text-3xl mb-3 relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
+          >
+            purpose
+          </h3>
+          <p class="font-jd-body text-jd-body text-lg pb-5 indent-5">
+            Something I wasn't familiar with was that a lot of communities and cities in rural towns
+            don't have the funding for a fully equipped fire department and resort to donations and
+            staffing firefighters through community outreach. One such place is a city in New York
+            called Danby.
           </p>
+          <p class="font-jd-body text-jd-body text-lg pb-5 indent-5">
+            A friend of mine who lives in Danby joined the fire department and realized that there
+            was a need for staffing and a need for updating their website. With that in mind, I
+            offered to help make the website for them, free of charge. I wanted to make sure that
+            the website was a clean informational website that allowed people in the community to
+            find relevant information for services, order number signs for mailboxes, or sign up for
+            firefighting duty in a straightforward way. The combination of Vue and Firebase can
+            always make for a quick and easy solution for something like this.
+          </p>
+          <div>
+            <h3
+              class="text-jd-header font-jd-title text-3xl mt-3 relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
+            >
+              thoughts
+            </h3>
+            <p class="font-jd-body text-jd-body text-lg pb-5 indent-5">
+              This probably has been and still is one of my favorite projects I've worked on. While
+              it was pretty simple, hearing that it has allowed for the Danby Volunteer Fire Company
+              to receive over 20 applications (that then became firefighters!) in a few short months
+              brings me immense joy. I love being able to help people and small communities!
+            </p>
+          </div>
         </div>
       </article>
     </div>
