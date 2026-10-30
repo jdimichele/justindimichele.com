@@ -1,7 +1,7 @@
 <template>
   <ProjectLayout
     title="Rutabaga"
-    summary="Because my wife shouldn't need to pay THAT much money for a recipe app."
+    summary="Because no one should have to pay THAT much money for a recipe app."
     website="https://rutabaga.recipes/"
     github="https://github.com/jdimichele/Rutabaga"
   >
@@ -56,25 +56,73 @@
       </div>
 
       <div class="mx-auto my-4">
-        <div>
+        <div class="mb-10">
           <h3
             class="text-jd-header font-jd-title text-3xl mb-3 relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
           >
             purpose
           </h3>
           <p class="font-jd-body text-jd-body text-lg pb-5 indent-5">
-            I personally think that paying almost
+            I believe that paying a subscription for convenience <i>can</i> make sense for certain
+            apps. I also believe that the app should have the features that other basic apps on the
+            market should have as well. Such as categorizing, easy ways to search for recipes, and
+            the ability to add your own. My wife mentioned these issues (along with a few other ones
+            that NYTCooking app didn't have in 2020) and I thought it would be a fun project to take
+            up and work on. This project is where I learned Vue.js, Google Firebase, and the Ionic
+            Framework.
           </p>
-          <p class="font-jd-body text-jd-body text-lg pb-5 indent-5">Two</p>
         </div>
-        <div>
+        <div class="mb-10">
           <h3
             class="text-jd-header font-jd-title text-3xl mb-3 relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
           >
             design
           </h3>
-          <p class="font-jd-body text-jd-body text-lg pb-5 indent-5">Three</p>
-          <p class="font-jd-body text-jd-body text-lg pb-5 indent-5">Four</p>
+          <p class="font-jd-body text-jd-body text-lg pb-5 indent-5">
+            Much like my other web-based projects, I always like to add on some new technology and
+            see where I can leverage that as part of my development process. I always love learning
+            new things! In this case, I learned three new technologies that were all used in this
+            app!
+          </p>
+          <p class="font-jd-body text-jd-body text-lg pb-5 indent-5">
+            I like making things simple, so I tried to keep the UX/UI similar to other recipe apps I
+            had found online. NYTCooking does have a great layout for recipe cards, so I used that
+            as heavy inspiration for my recipe layout, along with a few other popular apps. A few
+            features that I wanted Rutabaga to have, along with the grievances my wife had, was the
+            following:
+          </p>
+          <div class="ml-7">
+            <ul class="list list-disc font-jd-body text-lg text-jd-body pb-2">
+              <li>
+                Ability to quickly find the last recipe you had open (preferrably on the home
+                screen)
+              </li>
+              <li>Ability to add recipes, with pictures and categorize them</li>
+              <li>Ability to upload recipes from a URL (like a Google Sheet)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="mb-10">
+          <h3
+            class="text-jd-header font-jd-title text-3xl mb-3 relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
+          >
+            tech
+          </h3>
+          <p class="font-jd-body text-jd-body text-lg pb-5 indent-5">
+            Vue.js was easy to pickup, so I won't drone on about that too much (even though
+            I really love Vue). Firebase was my first real foray into NoSQL, so there was a slight
+            learning curve, but it was something that I felt I understood quickly due to knowing
+            basic data and database structures. It's all really just nicely wrapped in a JSON format
+            at the end of the day.
+          </p>
+          <p class="font-jd-body text-jd-body text-lg pb-5 indent-5">
+            Ionic was the largest learning curve of the three. I'd never worked with a
+            multi-platform app framework before and at the time (2020), it was just starting to add
+            support for Angular, React, and Vue.js. Support for Vue at the time felt a little
+            lackluster and I was planning to have this work easily on desktop and mobile,
+            specifically iPhone for my wife, and that came with a lot of other fun challenges that
+            Apple likes to add onto their app release process.
+          </p>
         </div>
         <div>
           <h3
@@ -83,11 +131,7 @@
             thoughts
           </h3>
           <p class="font-jd-body text-jd-body text-lg pb-5 indent-5">
-            This has been and still is one of my favorite projects I've worked on. While it was
-            pretty simple, hearing that it has allowed for the Danby Volunteer Fire Company to
-            receive over 20 applications (that have since become firefighters! Congrats!) in a few
-            short months brings me immense joy. I love being able to help people and small
-            communities.
+            Ultimately, I'm pretty happy with the way Rutabaga has turned out, and most importantly, so is my wife! There are a lot of improvements and changes I'd like to make in the future, specifically with the UX, the UI (layouts for some of the page views), and some additional features that I think would really make the app come together. Stay tuned for those updates. :)
           </p>
         </div>
       </div>

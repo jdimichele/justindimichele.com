@@ -41,7 +41,7 @@
         </div>
 
         <div class="mx-auto my-4">
-          <div>
+          <div class="mb-10">
             <h3
               class="text-jd-header font-jd-title text-3xl mb-3 relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
             >
@@ -62,7 +62,7 @@
               for firefighting duty in a straightforward way.
             </p>
           </div>
-          <div>
+          <div class="mb-10">
             <h3
               class="text-jd-header font-jd-title text-3xl mb-3 relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
             >
@@ -82,7 +82,7 @@
               to give it a bit more of a modern feel.
             </p>
           </div>
-          <div>
+          <div class="mb-10">
             <h3
               class="text-jd-header font-jd-title text-3xl mt-3 relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer"
             >

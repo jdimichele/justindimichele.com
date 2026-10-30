@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center content-center items-center m-auto h-screen">
-    <BaseCard class="">
+    <BaseCard>
       <div class="flex columns-3">
         <div class="self-center">
           <h1 class="animate-slide-in-center text-jd-header font-jd-title text-3xl">
