@@ -12,6 +12,7 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.3.0",
     "@tailwindcss/vite": "^4.3.3",
+    "buffer": "^6.0.3",
     "gray-matter": "^2.0.1",
     "marked": "^18.0.13",
     "vue": "rc",

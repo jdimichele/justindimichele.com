@@ -21,7 +21,7 @@
   <!-- Top Nav for other pages -->
   <div
     v-else-if="!mobile"
-    class="navbar !bg-transparent bg-none shadow-none absolute top-0 left-0 w-full z-50 animate-slide-in-center"
+    class="navbar bg-transparent! bg-none shadow-none absolute top-0 left-0 w-full z-50 animate-slide-in-center"
   >
     <div class="flex-1 p-2">
       <ul>
@@ -33,18 +33,30 @@
     <div class="text-jd-cool-steel font-jd-body flex-none">
       <ul class="menu menu-horizontal px-1 text-2xl">
         <li>
-          <RouterLink to="/about" class="hover:text-jd-subheader text-jd-muted">about</RouterLink>
+          <RouterLink
+            to="/about"
+            class="hover:text-jd-subheader active:text-jd-subheader text-jd-muted"
+            >about</RouterLink
+          >
         </li>
         <li>
-          <RouterLink to="/projects" class="hover:text-jd-subheader text-jd-muted"
+          <RouterLink
+            to="/projects"
+            class="hover:text-jd-subheader active:text-jd-subheader text-jd-muted"
             >projects</RouterLink
           >
         </li>
         <li>
-          <RouterLink to="/blog" class="hover:text-jd-subheader text-jd-muted">blog</RouterLink>
+          <RouterLink
+            to="/blog"
+            class="hover:text-jd-subheader active:text-jd-subheader text-jd-muted"
+            >blog</RouterLink
+          >
         </li>
         <li>
-          <RouterLink to="/contact" class="hover:text-jd-subheader text-jd-muted"
+          <RouterLink
+            to="/contact"
+            class="hover:text-jd-subheader active:text-jd-subheader text-jd-muted"
             >contact</RouterLink
           >
         </li>
