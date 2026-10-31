@@ -70,32 +70,6 @@
         ></a>
       </span>
     </div>
-
-    <div class="">
-      <h1
-        class="relative inline-block after:absolute after:bottom-0 after:left-0 after:h-0.75 after:w-full after:origin-left after:scale-x-0 after:bg-jd-header after:transition-transform after:duration-300 after:ease-out hover:after:scale-x-100 cursor-pointer text-4xl font-jd-title text-jd-header"
-      >
-        shoutouts
-      </h1>
-      <div class="ml-7">
-        <ul class="list list-disc font-jd-body text-lg text-jd-body pb-2">
-          <li>
-            <a href="https://refact0r.dev/" class="hover:text-jd-muted text-jd-subheader"
-              >refact0r.dev</a
-            >
-            for the inspiration for the home screen and the fonts. I like your style!
-          </li>
-          <li>
-            <a
-              href="https://uiverse.io/profile/jaykdoe"
-              class="hover:text-jd-muted text-jd-subheader"
-              >jaykdoe</a
-            >
-            for the incredible stars background. Crazy work!
-          </li>
-        </ul>
-      </div>
-    </div>
   </div>
 </template>
 
