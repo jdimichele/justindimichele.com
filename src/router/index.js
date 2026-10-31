@@ -7,6 +7,7 @@ import ProjectPage from '@/pages/ProjectPage.vue'
 import BlogListPage from '@/pages/BlogListPage.vue'
 import BlogPage from '@/pages/BlogPage.vue'
 import ContactPage from '@/pages/ContactPage.vue'
+import ErrorPage from '@/pages/ErrorPage.vue'
 
 const routes = [
   {
@@ -47,6 +48,10 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: ContactPage,
+  },
+  {
+    path: '/:catchAll(.*)*',
+    component: ErrorPage,
   },
 ]
 
