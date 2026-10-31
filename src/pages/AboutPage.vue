@@ -13,7 +13,7 @@
         <p class="text-xl font-jd-body text-jd-body">
           My name is Justin, a software engineer with years of quality engineering behind me. I love
           making apps, websites, and video games. Quality is something I care a lot about in all my
-          endeavors and strive to make it known in all of them.
+          endeavors and strive to make it known in them too.
         </p>
       </div>
     </div>
