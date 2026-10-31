@@ -23,9 +23,9 @@
 import { onMounted } from 'vue'
 
 const errorMessages = [
-  'no signs of intelligent life out this far...',
-  'definitely something went wrong here, turn back!',
-  'must have taken a wrong turn somewhere...',
+  'there is nothing this far out of the galaxy...',
+  'must have taken the wrong wormhole...',
+  'getting lost in an asteroid field? not a good idea...',
 ]
 
 function random404() {

@@ -48,7 +48,7 @@ const projects = [
     id: 'dimidapp-day',
     title: 'Dimidapp.day',
     summary: 'My wedding website that handled RSVPs, photos, and more!',
-    image: new URL('@/assets/images/dimidapp_home.png', import.meta.url).href,
+    image: new URL('@/assets/images/dd_home.png', import.meta.url).href,
   },
 ]
 </script>

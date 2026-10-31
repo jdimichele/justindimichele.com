@@ -24,6 +24,7 @@
         <span class="font-jd-body text-jd-body pb-2">Resume:</span>
         <a
           href="/assets/Justin DiMichele Resume 2026.pdf"
+          download="Justin DiMichele Resume 2026.pdf"
           class="inline-flex items-center gap-2 hover:text-jd-muted text-jd-subheader transition-colors"
           ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
             <!-- Icon from Phosphor by Phosphor Icons - https://github.com/phosphor-icons/core/blob/main/LICENSE -->
