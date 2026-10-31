@@ -10,6 +10,8 @@
       </div>
     </div>
 
+    <!-- Temp holding spot for future blogs. -->
+    <h3 class="text-2xl text-jd-subheader">No blogs... yet!</h3>
     <div class="mx-auto my-10 flex flex-col gap-6">
       <article v-for="item in blogs" :key="item.id" class="flex flex-col">
         <div class="flex items-baseline gap-20">

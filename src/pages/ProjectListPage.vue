@@ -36,19 +36,19 @@ const projects = [
     title: 'Danby Volunteer Fire Company',
     summary:
       'An informational website made for the Danby Volunteer Fire Department of Danby, New York.',
-    image: '/src/assets/images/dvfc_home.png',
+    image: new URL('@/assets/images/dvfc_home.png', import.meta.url).href,
   },
   {
     id: 'rutabaga-app',
     title: 'Rutabaga',
     summary: "A recipe app I made for my wife (so she wouldn't have to pay for NYT Cooking).",
-    image: '/src/assets/images/rutabaga_home.png',
+    image: new URL('@/assets/images/rutabaga_home.png', import.meta.url).href,
   },
   {
     id: 'dimidapp-day',
     title: 'Dimidapp.day',
     summary: 'My wedding website that handled RSVPs, photos, and more!',
-    image: '',
+    image: new URL('@/assets/images/dimidapp_home.png', import.meta.url).href,
   },
 ]
 </script>

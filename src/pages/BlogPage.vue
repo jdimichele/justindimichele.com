@@ -28,9 +28,6 @@
 
     <div v-html="blog.body"></div>
   </article>
-  <div v-else-if="error">
-    <p>Blog not found!</p>
-  </div>
 </template>
 
 <script setup>
